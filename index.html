@@ -13,70 +13,71 @@
   <title>Frontend Mentor | Results summary component</title>
 </head>
 <body>
-
-  <main class="container">
-    <section class="result flex_group">
-      <h1 class="result__title">Your Result</h1>
-      <div class="result__circle flex_group">
-        <h3 class="result__score">76</h3>
-        <p class="result__score-total">of 100</p>
-      </div>
-      <div class="result__qualify flex_group"> 
-        <h3 class="result__qualify-title">Great</h3>
-        <p class="result__description">You scored higher than 65% of the people who have taken these tests.</p>
-      </div>
-    </section>
-
-    <section class="summary flex_group">
-      <h2 class="summary__title">Summary</h2>
-      <!-- 1 -->
-      <div class="summary__item item__reaction">
-        <div class="summary__tag">
-          <img src="images/icon-reaction.svg" alt="reactionIcon">
-          <p class="summary__tag-name">Reaction</p>
+  <main class="flex">
+    <div class="container">
+      <!-- Result -->
+      <section class="result flex_group">
+        <h1 class="result__title">Your Result</h1>
+        <div class="result__circle flex_group">
+          <h3 class="result__score">76</h3>
+          <p class="result__score-total">of 100</p>
         </div>
-        <div class="summary__score">
-          <p>80</p>
-          <p class="grey-font">/ 100</p>
-        </div>      
-      </div>
-      <!-- 2 -->
-      <div class="summary__item item__memory">
-        <div class="summary__tag">
-          <img src="images/icon-memory.svg" alt="reactionIcon">
-          <p class="summary__tag-name">Memory</p>
+        <div class="result__qualify flex_group"> 
+          <h3 class="result__qualify-title">Great</h3>
+          <p class="result__description">You scored higher than 65% of the people who have taken these tests.</p>
         </div>
-        <div class="summary__score">
-          <p>92</p>
-          <p class="grey-font">/ 100</p>
-        </div>      
-      </div>
-      <!-- 3 -->
-      <div class="summary__item item__verbal">
-        <div class="summary__tag">
-          <img src="images/icon-verbal.svg" alt="verbalIcon">
-          <p class="summary__tag-name">Verbal</p>
+      </section>
+      <!-- Summary -->
+      <section class="summary flex_group">
+        <h2 class="summary__title">Summary</h2>
+        <!-- 1 -->
+        <div class="summary__item item__reaction">
+          <div class="summary__tag">
+            <img src="images/icon-reaction.svg" alt="reactionIcon">
+            <p class="summary__tag-name">Reaction</p>
+          </div>
+          <div class="summary__score">
+            <p>80</p>
+            <p class="grey-font">/ 100</p>
+          </div>      
         </div>
-        <div class="summary__score">
-          <p>61</p>
-          <p class="grey-font">/ 100</p>
-        </div>      
-      </div>
-      <!-- 4 -->
-      <div class="summary__item item__visual">
-        <div class="summary__tag">
-          <img src="images/icon-visual.svg" alt="visualIcon">
-          <p class="summary__tag-name">Visual</p>
+        <!-- 2 -->
+        <div class="summary__item item__memory">
+          <div class="summary__tag">
+            <img src="images/icon-memory.svg" alt="reactionIcon">
+            <p class="summary__tag-name">Memory</p>
+          </div>
+          <div class="summary__score">
+            <p>92</p>
+            <p class="grey-font">/ 100</p>
+          </div>      
         </div>
-        <div class="summary__score">
-          <p>72</p>
-          <p class="grey-font">/ 100</p>
-        </div>      
-      </div>
-      <!-- Button -->
-      <button class="button">Continue</button>
-    </section>
-    
+        <!-- 3 -->
+        <div class="summary__item item__verbal">
+          <div class="summary__tag">
+            <img src="images/icon-verbal.svg" alt="verbalIcon">
+            <p class="summary__tag-name">Verbal</p>
+          </div>
+          <div class="summary__score">
+            <p>61</p>
+            <p class="grey-font">/ 100</p>
+          </div>      
+        </div>
+        <!-- 4 -->
+        <div class="summary__item item__visual">
+          <div class="summary__tag">
+            <img src="images/icon-visual.svg" alt="visualIcon">
+            <p class="summary__tag-name">Visual</p>
+          </div>
+          <div class="summary__score">
+            <p>72</p>
+            <p class="grey-font">/ 100</p>
+          </div>      
+        </div>
+        <!-- Button -->
+        <button class="button">Continue</button>
+      </section>
+    </div>
   </main>
    
   <footer class="attribution">

@@ -65,6 +65,12 @@
   .grey-font{
     color: #999;
   }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
 
   /* Result */
   .result{
@@ -117,7 +123,7 @@
     .container{
         max-width: 700px;
         grid-template-columns: 1fr 1fr;
-        margin: 120px auto 0;
+        margin: 3rem auto 1rem;
         border-radius: 5%;
         overflow: hidden;
         box-shadow: 2px 2px 20px hsla(224, 30%, 27%, 0.1); ;
